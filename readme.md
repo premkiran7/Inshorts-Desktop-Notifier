@@ -121,5 +121,5 @@ To get inshorts notifications automatically after system boot just configure you
 
 The below configuration was done to achieve the above in Ubuntu 16.04
 
-Goto /etc/rc.local and add the appropriate command to run 'app.py' in the background
-In dash, type startup applications and add the appropriate command to run 'desktop_notifier.py'
+Goto /etc/rc.local and add the appropriate command to run 'app.py' in the background.
+In dash, type startup applications and add the appropriate command to run 'desktop_notifier.py'.
