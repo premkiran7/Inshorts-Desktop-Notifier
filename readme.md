@@ -117,7 +117,7 @@ All dependencies are listed in *requirements.txt* file.
     $ python desktop_notifier.py
     ```
     
-To get inshorts notifications automatically after system boot just configure your os to run commands (2) and (3)
+To get inshorts notifications automatically just configure your os to run commands (2) and (3) after system boot up
 
 The below configuration was done to achieve the above in Ubuntu 16.04
 
