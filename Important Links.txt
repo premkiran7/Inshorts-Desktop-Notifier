@@ -3,10 +3,4 @@ https://www.maxcdn.com/one/visual-glossary/cors/                                
 https://medium.com/aubergine-solutions/api-testing-using-postman-323670c89f6d       - Postman API Testing
 https://stackoverflow.com/questions/18966564/pip-freeze-vs-pip-list                 - requirements.txt
 
-Other things to look into...
-
-REST
-SOAP
-GraphQL
-Flask
-JavaScript
+Other things to look into...REST, SOAP, GraphQL, Flask, JavaScript
