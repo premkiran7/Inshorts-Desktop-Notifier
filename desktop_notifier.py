@@ -4,10 +4,7 @@ import urllib2
 import json
 from bs4 import BeautifulSoup
 
-# path to notification window icon
-#ICON_PATH = "put full path to icon image here"
-
-#os.system('python app.py')
+#ICON_PATH = "/home/premkiran/Inshorts-Desktop-Notifier/Inshorts.png"
 
 categories = ['','national','business','sports','world','politics','technology','startup','entertainment','miscellaneous','hatke','science','automobile']
     

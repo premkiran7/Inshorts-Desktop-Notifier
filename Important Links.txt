@@ -1,6 +1,16 @@
-http://jonathanchu.is/posts/virtualenv-and-pip-basics/                              - Creating Virtual Environment
-https://www.maxcdn.com/one/visual-glossary/cors/                                    - CORS
-https://medium.com/aubergine-solutions/api-testing-using-postman-323670c89f6d       - Postman API Testing
-https://stackoverflow.com/questions/18966564/pip-freeze-vs-pip-list                 - requirements.txt
+# Creating Virtual Environment
+http://jonathanchu.is/posts/virtualenv-and-pip-basics/
+
+# CORS
+https://www.maxcdn.com/one/visual-glossary/cors/        
+
+# Postman API Testing                           
+https://medium.com/aubergine-solutions/api-testing-using-postman-323670c89f6d 
+     
+# requirements.txt
+https://stackoverflow.com/questions/18966564/pip-freeze-vs-pip-list    
+             
+# test.txt
+https://stackoverflow.com/questions/18072452/install-multiple-packages-on-linux-like-pip-install-r-requirements-txt
 
 Other things to look into...REST, SOAP, GraphQL, Flask, JavaScript

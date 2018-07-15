@@ -3,11 +3,15 @@ certifi==2017.7.27.1
 chardet==3.0.4
 click==6.7
 Flask==0.12.2
+Flask-Cors==3.0.6
 idna==2.6
 itsdangerous==0.24
 Jinja2==2.9.6
 lxml==4.1.1
 MarkupSafe==1.0
+notify2==0.3.1
 requests==2.18.4
+six==1.11.0
 urllib3==1.22
 Werkzeug==0.12.2
+yolk==0.4.3
