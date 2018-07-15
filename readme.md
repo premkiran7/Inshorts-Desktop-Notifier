@@ -104,7 +104,10 @@ All dependencies are listed in *requirements.txt* file.
     ```bash
     $ sudo pip freeze -r requirements.txt
     ```
-
+    ```bash
+    $ sudo apt-get install $(cat test.txt)
+    ```
+    
 2. Start the api server
 
     ```bash 
