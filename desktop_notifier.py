@@ -48,7 +48,7 @@ while(1):
       content = translator.translate(newsitem['content'], dest='ta')
       
       # update notification data for Notification object
-      n.update(title.text, content.text) 
+      #n.update(title.text, content.text) 
       
       file1.write(title.text)
       
@@ -67,7 +67,7 @@ while(1):
       file1.write('\n')
       file1.write('\n')
       
-      #n.update(newsitem['title'], newsitem['content'])
+      n.update(newsitem['title'], newsitem['content'])
       
       # show notification on screen
       n.show()
