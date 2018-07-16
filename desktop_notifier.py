@@ -1,10 +1,17 @@
+#coding=utf-8
+from googletrans import Translator
 import time
 import notify2
 import urllib2
 import json
 from bs4 import BeautifulSoup
+import datetime
+import codecs
 
-#ICON_PATH = "/home/premkiran/Inshorts-Desktop-Notifier/Inshorts.png"
+# path to notification window icon
+ICON_PATH = "/home/user/Downloads/Inshorts-Desktop-Notifier/Inshorts.jpg"
+
+#os.system('python app.py')
 
 categories = ['','national','business','sports','world','politics','technology','startup','entertainment','miscellaneous','hatke','science','automobile']
     
@@ -22,19 +29,46 @@ while(1):
    notify2.init("News Notifier")
 
    # create Notification object
-   n = notify2.Notification(None)#, icon = ICON_PATH)
+   n = notify2.Notification(None, icon = ICON_PATH)
 
    # set urgency level
    n.set_urgency(notify2.URGENCY_NORMAL)
 
    # set timeout for a notification
    n.set_timeout(10000)
+   
+   translator = Translator()
+   
+   file1 = codecs.open('File1.txt',encoding='utf-8',mode='a')
 
    for newsitem in newsitems:
 
-      # update notification data for Notification object
-      n.update(newsitem['title'], newsitem['content'])
+      title = translator.translate(newsitem['title'], dest='ta')
 
+      content = translator.translate(newsitem['content'], dest='ta')
+      
+      # update notification data for Notification object
+      n.update(title.text, content.text) 
+      
+      file1.write(title.text)
+      
+      file1.write('\n')
+      
+      file1.write(newsitem['title'])
+      
+      file1.write('\n')
+      
+      file1.write(content.text)
+      
+      file1.write('\n')
+      
+      file1.write(newsitem['content'])
+      
+      file1.write('\n')
+      file1.write('\n')
+      
+      #n.update(newsitem['title'], newsitem['content'])
+      
       # show notification on screen
       n.show()
 
@@ -45,3 +79,5 @@ while(1):
    
    if index == 13:
       index = 0
+      
+   file1.close()   
