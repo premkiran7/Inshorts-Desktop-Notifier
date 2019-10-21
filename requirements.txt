@@ -13,5 +13,5 @@ notify2==0.3.1
 requests==2.18.4
 six==1.11.0
 urllib3==1.22
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 yolk==0.4.3
